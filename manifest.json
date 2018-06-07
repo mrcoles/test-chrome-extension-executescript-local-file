@@ -1,0 +1,12 @@
+{
+  "name": "test-chrome-extension-executescript-local-file",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description":
+    "chrome.tabs.executeScript is failing on a local file with activeTab",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "minimum_chrome_version": "49",
+  "permissions": ["activeTab"]
+}
